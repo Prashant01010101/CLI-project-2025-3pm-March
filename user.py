@@ -4,6 +4,12 @@ import sqlite3
 
 # CLI Application => Command line interface
 
+# go to git bash
+# git config --global user.name "Prashant Pandit"
+# git config --global useremail "prasantpandit00@gmail.com"
+
+# git init => first time
+# git status => if you want to check what are the status of files
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
@@ -182,5 +188,3 @@ def main():
         pass
 
 main()
-
-
